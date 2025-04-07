@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+body {
+    background-color: #1F2937;
+    margin: 20px 40px 0 40px;
+    font-family: 'karla', 'sans serif';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: white;
+}
+
+.logo img{
+    height: 200px;
+    width: auto;
+    border-radius: 10px;
+}
+
+.set {
+    display: flex;
+    gap: 20px;
+}
+.container {
+    color: white;  
+    margin-bottom: 30px;
+    justify-items: left;
+}
+
+.firstText {
+    color: white;
+    margin:0;
+}
+
+.secondText {
+    color: #4ADF86;
+    margin: 0;
+}
+
+hr {
+    border: 1px solid #2F3E53;
+    margin-bottom: 20px;
+    width: 800px;
+}
+
+p {
+    margin-bottom: 50px;
+}
+
+
+#generate-passwords {
+    background-color: #10B981;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    color: white;
+}
+
+
+.passwords {
+    display: flex;
+    justify-content: center;
+    gap: 30px; 
+}
+
+#first-password {
+    background-color: #273549;
+    height: 35px;
+    width: 200px;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #55F991;
+    font-size: 15px;
+}
+
+#second-password {
+    background-color: #273549;
+    height: 35px;
+    width: 200px;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #55F991;
+    font-size: 15px;
+}
