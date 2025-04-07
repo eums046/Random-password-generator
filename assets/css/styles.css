@@ -89,3 +89,47 @@ p {
     color: #55F991;
     font-size: 15px;
 }
+
+@media (max-width: 375px) {
+    
+    body {
+        font-size: 12px;
+        margin: 10px 20px 0 20px;
+    }
+    .set {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    hr {
+        width: 280px;
+    }
+
+    .passwords {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    #first-password {
+        width: 250px;
+    }
+
+    #second-password{
+        width: 250px;
+    }
+
+    .p {
+        font-size: 10px;
+    }
+
+    p {
+        margin-bottom: 20px;
+    }
+
+    .container {
+        justify-items: center;
+    }
+}
+
