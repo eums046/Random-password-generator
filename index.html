@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="shortcut icon" href="assets/img/logo-p.png" type="image/x-icon">
+    <title>Password Generator</title>
+</head>
+<body>
+        <div class="set">
+        <div class="logo">
+            <img src="./assets/img/logo-p.png" alt="Logo">
+        </div>
+        <div class="container">
+            <h1 class="firstText">Generate a</h1>
+            <h1 class="secondText">random password</h1>
+            <p>Never use an insecure password again.</p>
+            <button id="generate-passwords" onclick="generate()">Generate Passwords</button>
+        </div>
+       </div>
+        <hr>
+        <div class="passwords">
+            <h2 id="first-password" onclick="copyToClipboard('first-password')"></h2>
+            <h2 id="second-password" onclick="copyToClipboard('second-password')"></h2>
+        </div>
+        <p> ₊✩‧₊˚౨ৎ˚₊✩‧₊ Note: Click on your preffered password to copy it. ₊✩‧₊˚౨ৎ˚₊✩‧₊</p>
+        <script src="./assets/js/script.js"></script>
+</body>
+</html>
